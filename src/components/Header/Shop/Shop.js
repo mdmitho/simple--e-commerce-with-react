@@ -31,11 +31,11 @@ const Shop = () => {
                  }
            </div>
            <div className="cart-container">
-           <h4>Order Summary</h4>
+           <h1>Order Summary</h1>
            <p>Selected Items : {cart.length}</p>
            </div>
         </div>
     );
 };
-
+ 
 export default Shop; 
